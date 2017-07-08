@@ -4,7 +4,7 @@ A super-simple mutex implementation on top of DynamoDB.
 
 Dynadbmutex uses
 [dynadbobjectstore](https://github.com/erwan-lemonnier/dynamodbobjectstore) to
-acquire/release a entry in a DynamoDB table. That entry is uniquely identified
+acquire/release an entry in a DynamoDB table. That entry is uniquely identified
 by its name string. If no such entry exists, the acquiring process may create
 it and thereby gets the mutex. Any other process trying to acquire the same
 name afterwards gets an exception.
