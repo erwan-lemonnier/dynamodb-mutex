@@ -37,7 +37,7 @@ setup(
     description='A simple mutex implementation on top of DynamoDB.',
     install_requires=[
         'boto',
-        'dynadbobjectstore',
+        'dynadbobjectstore>=1.0.0',
     ],
     tests_require=[
         'boto',
