@@ -30,7 +30,7 @@ print("version: %s" % version)
 setup(
     name='dynadbmutex',
     version=version,
-    url='https://github.com/erwan-lemonnier/dynamodbmutex',
+    url='https://github.com/erwan-lemonnier/dynamodb-mutex',
     license='BSD',
     author='Erwan Lemonnier',
     author_email='erwan@lemonnier.se',

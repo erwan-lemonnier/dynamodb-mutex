@@ -1,4 +1,4 @@
-# dynamodbmutex
+# dynamodb-mutex
 
 A super-simple mutex implementation on top of DynamoDB.
 
